@@ -20,6 +20,10 @@ export default function Waitlist() {
       });
       if (!res.ok) throw new Error('request failed');
       setStatus('done');
+      // Fire a GA4 conversion event so Google Ads can optimize toward signups.
+      if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+        window.gtag('event', 'generate_lead', { method: 'waitlist', language: lang });
+      }
     } catch {
       setStatus('error');
     }
