@@ -17,14 +17,21 @@ export default function Footer() {
             </div>
             <p>{t('footer.tagline')}</p>
             <div className="footer-socials">
-              <a href="#" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/nuoscare_id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
                 <Icon.IG />
               </a>
-              <a href="#" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/company/nuos-care/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
                 <Icon.LI />
-              </a>
-              <a href="#" aria-label="TikTok">
-                <Icon.TT />
               </a>
             </div>
           </div>
