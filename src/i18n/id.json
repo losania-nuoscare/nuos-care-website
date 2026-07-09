@@ -1,0 +1,199 @@
+{
+  "nav": {
+    "howItWorks": "Cara Kerja",
+    "whyNuos": "Kenapa NUOS",
+    "pricing": "Biaya",
+    "faq": "FAQ",
+    "cta": "Daftar Waitlist"
+  },
+  "hero": {
+    "headlinePre": "Pengasuh terbaik untuk si kecil,",
+    "headlineEm": "",
+    "headlineGrad": "ada di sini.",
+    "subheadline": "Satu-satunya platform yang mendampingi hubungan Anda dengan pengasuh, dari hari pertama hingga terakhir.",
+    "ctaPrimary": "Daftar Waitlist →",
+    "ctaSecondary": "Lihat cara kerjanya",
+    "trust1": "Pengasuh terseleksi dan terverifikasi",
+    "trust2": "Pendampingan penuh, bukan sekadar penempatan",
+    "trust3": "Panduan cerdas AI untuk tumbuh kembang si kecil"
+  },
+  "how": {
+    "eyebrow": "Cara Kerja NUOS",
+    "headline": "Bagian yang sulit bukan hanya menemukan pengasuh.",
+    "subheadline": "Tapi mempertahankan hubungan dengan pengasuh yang tepat.",
+    "step1": {
+      "label": "Smart Matching",
+      "headline": "Selamat tinggal proses pencarian yang melelahkan.",
+      "description": "Ceritakan kebutuhan anak Anda sekali saja. Dapatkan 3 pengasuh terbaik yang paling cocok untuk keluarga Anda."
+    },
+    "step2": {
+      "label": "NUOS Partner",
+      "headline": "Selalu tahu apa yang terjadi.",
+      "description": "Buat catatan harian bersama pengasuh Anda. Tugas, foto, dan catatan perkembangan anak, semua tersusun rapi per hari. Dan jika ada yang terasa tidak beres, NUOS siap membantu Anda."
+    },
+    "step3": {
+      "label": "Child Development Intelligence",
+      "headline": "Tumbuh kembang anak yang optimal bersama NUOS Tumbuh",
+      "description": "Buat catatan perkembangan anak bersama pengasuh Anda. AI kami, NUOS Tumbuh, akan membantu menentukan aktivitas terbaik untuk membantu tumbuh kembang anak Anda."
+    }
+  },
+  "why": {
+    "eyebrow": "Kenapa NUOS",
+    "headline": "Karena si kecil layak mendapat pengasuh terbaik.",
+    "card1": {
+      "tag": "NUOS Match",
+      "headline": "Setiap pengasuh terpercaya dan profesional",
+      "description": "Pemeriksaan latar belakang, tes kesehatan, uji keterampilan, dan pelatihan — semua dilakukan sebelum hari pertama."
+    },
+    "card2": {
+      "tag": "NUOS Partner",
+      "headline": "Ada masalah? Kami siap menangani.",
+      "description": "BPJS, gaji tepat waktu, jaminan penggantian pengasuh, dan dukungan 24/7 selama masa kontrak berjalan."
+    },
+    "card3": {
+      "tag": "NUOS Tumbuh",
+      "headline": "Smart caregiving, bukan lagi kira-kira.",
+      "description": "Pengasuh Anda tahu apa yang harus dilakukan selanjutnya. Aktivitas dipandu sesuai tahap perkembangan anak Anda."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Biaya",
+    "headline": "Sederhana dan transparan",
+    "subheadline": "Harga terjangkau untuk layanan yang istimewa.",
+    "step1": {
+      "stepLabel": "Langkah 1",
+      "name": "Biaya penempatan",
+      "price": "Rp 1.500.000",
+      "note": "Dibayar sekali saat Anda merekrut.",
+      "description": "Pemeriksaan latar belakang, seleksi, pelatihan pra-kerja, dan jaminan kesesuaian dengan preferensi."
+    },
+    "step2": {
+      "stepLabel": "Langkah 2",
+      "name": "Gaji pengasuh",
+      "price": "Rp 2.500.000 – 4.000.000",
+      "note": "Dibayar setiap bulan.",
+      "description": "Dibayar melalui NUOS dan disalurkan langsung ke pengasuh Anda. Gaji tergantung pengalaman dan keahlian."
+    },
+    "step3": {
+      "stepLabel": "Langkah 3",
+      "name": "NUOS subscription",
+      "price": "Rp 125.000 – 200.000",
+      "note": "Per bulan. 5% dari gaji pengasuh.",
+      "feature1": "Hotline darurat 24/7",
+      "feature2": "Jaminan penggantian selama masa kerja",
+      "feature3": "Smart caregiving untuk tumbuh kembang anak, dengan AI kami, NUOS Tumbuh",
+      "feature4": "Pemantauan & pelatihan berkelanjutan"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "headline": "Pertanyaan yang sering ditanyakan",
+    "items": [
+      {
+        "q": "Apa itu NUOS?",
+        "a": "NUOS adalah platform berbasis AI yang membantu keluarga menemukan, merekrut, dan mengelola pengasuh profesional. Kami mendampingi keluarga Anda sepanjang periode kerjasama, dari pertemuan pertama hingga keseharian Anda dengan pengasuh."
+      },
+      {
+        "q": "Dimana saja area jangkauan NUOS?",
+        "a": "NUOS saat ini tersedia di Indonesia (Jabodetabek, Bandung, Semarang, Surabaya). Kami akan segera melakukan ekspansi ke kota dan negara lain."
+      },
+      {
+        "q": "Bagaimana sistem pembayaran di NUOS?",
+        "a": "Anda membayar biaya penempatan sekali sebesar Rp 1.500.000 saat merekrut. Setiap bulan Anda akan membayar gaji bulanan (Rp 2.500.000–4.000.000) melalui NUOS dan biaya berlangganan NUOS (Rp 125.000–200.000). Ini membantu kami menjamin hotline darurat 24/7, jaminan penggantian pengasuh, smart caregiving & NUOS Tumbuh (AI untuk tumbuh kembang), dan pemantauan dan pelatihan berkelanjutan untuk pengasuh selama periode kerjasama."
+      },
+      {
+        "q": "Apa yang NUOS lakukan setelah rekrutmen pengasuh berhasil dilakukan?",
+        "a": "Kami tetap aktif sepanjang waktu. Pengecekan rutin mingguan untuk keluarga dan pengasuh, hotline darurat 24/7, evaluasi kinerja bulanan, pelatihan pengasuh berkelanjutan, dan panduan tumbuh kembang anak melalui AI kami, NUOS Tumbuh. Jika ada masalah, kami siap membantu."
+      },
+      {
+        "q": "Apa yang dilakukan NUOS Tumbuh AI?",
+        "a": "NUOS Tumbuh AI membantu Anda dalam perjalanan mengasuh anak. Setiap hari, Anda dan pengasuh mendapat panduan aktivitas dan rekomendasi stimulus berdasarkan tahap perkembangan spesifik anak Anda. Setiap pencapaian dicatat, diukur berdasarkan standar WHO, dan dirangkum agar Anda bisa melihat perkembangan nyata anak Anda. Tidak ada lagi parenting dengan perasaan saja."
+      },
+      {
+        "q": "Bagaimana kalau pengasuh tidak cocok?",
+        "a": "Setiap pengasuh yang direkrut melalui NUOS sudah termasuk jaminan penggantian selama masa kerja sama. Apabila pengasuh tidak bekerja sesuai dengan lingkup kerja dan tanggung jawabnya atau tidak bersikap profesional, beritahu kami. Kami akan memberikan Anda pengasuh baru tanpa tambahan biaya."
+      },
+      {
+        "q": "Kenapa NUOS dan bukan yayasan atau jasa lain?",
+        "a": "Yayasan atau jasa lain membantu Anda mencari pengasuh. Kami menjamin bahwa hubungan Anda dengan pengasuh berjalan dengan baik dan berlangsung lama. Kami akan ada bersama Anda dari awal hingga akhir."
+      }
+    ]
+  },
+  "waitlist": {
+    "eyebrow": "Jadilah yang pertama untuk berlangganan NUOS",
+    "headline": "Keluarga Anda layak mendapat pengasuh terbaik",
+    "subheadline": "Daftar waitlist dan kami akan menghubungi Anda begitu NUOS hadir di kota Anda.",
+    "placeholder": "orangtua@email.com",
+    "button": "Daftar Waitlist",
+    "meta1": "Gratis untuk bergabung",
+    "meta2": "Tidak ada spam",
+    "meta3": "Mulai Agustus 2026",
+    "success": "Anda sudah terdaftar. Kami akan segera menghubungi Anda.",
+    "sending": "Mendaftar…",
+    "error": "Terjadi kesalahan. Silakan coba lagi."
+  },
+  "footer": {
+    "tagline": "Nurturing, Understanding, Outstanding and Safe Care for families everywhere.",
+    "platform": "Platform",
+    "link1": "Cara Kerja",
+    "link2": "Fitur",
+    "link3": "Biaya",
+    "link4": "Untuk Pengasuh",
+    "company": "Perusahaan",
+    "link5": "FAQ",
+    "langLabel": "Bahasa",
+    "langEn": "English",
+    "langId": "Bahasa Indonesia",
+    "rights": "© 2026 NUOS Care. Semua hak dilindungi.",
+    "madeWith": "Dibuat dengan ♡ untuk keluarga di mana saja."
+  },
+  "ui": {
+    "active": "Aktif",
+    "certified": "Bersertifikat NUOS",
+    "verifiedBadge": "Terverifikasi",
+    "topMatches": "3 Kandidat Teratas Anda",
+    "matchedFrom": "Dipilih dari 847 profil terverifikasi",
+    "interview": "Wawancara",
+    "floatCheck": "Pemeriksaan latar belakang",
+    "floatCheckVal": "Lolos ✓",
+    "floatMatch": "3 kandidat cocok",
+    "floatMatchVal": "dalam 47 jam",
+    "partnerDate": "Rabu · 12 Mar",
+    "navHome": "Beranda",
+    "navLogbook": "Catatan",
+    "navSupport": "NUOS Support",
+    "todaysTasks": "Tugas Hari Ini",
+    "tasksProgress": "3 dari 4 selesai",
+    "logbook": "Catatan Harian",
+    "nuosSupport": "Dukungan NUOS",
+    "developmentReport": "Laporan Perkembangan",
+    "aiSummary": "Ringkasan NUOS.AI",
+    "aiSummaryText": "Perkembangan kognitif bulan ini sangat baik. Kosakata adalah area yang perlu diperhatikan — catat untuk pengecekan berikutnya.",
+    "measurements": "Pengukuran vs Standar",
+    "onTrack": "Sesuai Target",
+    "aboveAvg": "Di Atas Rata-rata",
+    "watch": "Perlu Perhatian",
+    "growthScore": "Skor Perkembangan Keseluruhan",
+    "caregiverLabel": "Pengasuh",
+    "since": "Sejak Jan 2026",
+    "months": "bulan",
+    "weight": "Berat",
+    "height": "Tinggi",
+    "vocabulary": "Kosakata",
+    "words": "kata",
+    "logbookNote": "\"Lina tertawa lepas saat melukis hari ini — lihat fotonya!\"",
+    "tasks": {
+      "t1": "Sarapan — oatmeal habis",
+      "t2": "Bermain di taman, 45 menit",
+      "t3": "Waktu melukis — 3 foto dikirim",
+      "t4": "Tidur siang"
+    },
+    "skills": {
+      "infantCare": "Perawatan Bayi",
+      "cooking": "Memasak",
+      "english": "Bahasa Inggris",
+      "earlyEducation": "Edukasi Dini",
+      "firstAid": "P3K"
+    }
+  }
+}

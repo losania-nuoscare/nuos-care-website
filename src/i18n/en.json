@@ -1,0 +1,199 @@
+{
+  "nav": {
+    "howItWorks": "How it works",
+    "whyNuos": "Why NUOS",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "cta": "Join the waitlist"
+  },
+  "hero": {
+    "headlinePre": "Peace of mind,",
+    "headlineEm": "delivered",
+    "headlineGrad": "to your doorstep.",
+    "subheadline": "The only platform that stays with your family — from the moment you meet your caregiver to your everyday relationship.",
+    "ctaPrimary": "Join the waitlist →",
+    "ctaSecondary": "See how it works",
+    "trust1": "Background checked & verified caregiver",
+    "trust2": "Ongoing support, not just placement",
+    "trust3": "Intelligence for your child development"
+  },
+  "how": {
+    "eyebrow": "How NUOS works",
+    "headline": "The hard part isn't finding a caregiver.",
+    "subheadline": "It's keeping the relationship working.",
+    "step1": {
+      "label": "Smart Matching",
+      "headline": "Say bye to the overwhelming hiring process.",
+      "description": "Tell NUOS about your child once. Get the top 3 caregivers most compatible with your family — vetted, ranked, ready to meet."
+    },
+    "step2": {
+      "label": "NUOS Partner",
+      "headline": "Always in the loop.",
+      "description": "A structured daily record you and your caregiver build together. Tasks, photos, and milestone notes, all organized by day. And if anything feels off, NUOS support is one tap away."
+    },
+    "step3": {
+      "label": "Child Development Intelligence",
+      "headline": "Optimize your child's development with NUOS Tumbuh",
+      "description": "Co-create your child's milestone log with your caregiver. Our AI, NUOS Tumbuh, will help you define the best actions and activities to achieve your child's next milestones."
+    }
+  },
+  "why": {
+    "eyebrow": "Why NUOS",
+    "headline": "Because little ones deserve the best care.",
+    "card1": {
+      "tag": "NUOS Match",
+      "headline": "Every caregiver is trusted and professional",
+      "description": "Background checks, health screening, skills test, and training — all done before day one."
+    },
+    "card2": {
+      "tag": "NUOS Partner",
+      "headline": "Something goes wrong? We've got it.",
+      "description": "BPJS, on-time salary, a replacement guarantee, and 24/7 support — for as long as your contract runs."
+    },
+    "card3": {
+      "tag": "NUOS Tumbuh",
+      "headline": "Smart caregiving, built in.",
+      "description": "Your caregiver always knows what to do next. Activities guided by your child's exact developmental stage."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "headline": "Simple, transparent pricing.",
+    "subheadline": "Affordable price, exceptional care.",
+    "step1": {
+      "stepLabel": "Step 1",
+      "name": "Placement fee",
+      "price": "Rp 1.500.000",
+      "note": "Paid once when you hire.",
+      "description": "Background check, vetting, pre-employment training, and compatibility match guaranteed."
+    },
+    "step2": {
+      "stepLabel": "Step 2",
+      "name": "Caregiver salary",
+      "price": "Rp 2.500.000 – 4.000.000",
+      "note": "Paid monthly.",
+      "description": "Goes directly to your caregiver via NUOS. Salary depends on experience and skillset."
+    },
+    "step3": {
+      "stepLabel": "Step 3",
+      "name": "NUOS subscription",
+      "price": "Rp 125.000 – 200.000",
+      "note": "Per month. 5% of caregiver salary.",
+      "feature1": "24/7 emergency hotline",
+      "feature2": "Replacement guarantee for entire employment period",
+      "feature3": "Smart caregiving & child development intelligence, with our AI, NUOS Tumbuh",
+      "feature4": "Ongoing caregiver monitoring & training"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "headline": "Questions, answered honestly.",
+    "items": [
+      {
+        "q": "What is NUOS?",
+        "a": "NUOS is an AI-native platform that helps families find, hire, and manage professional caregivers. We don't disappear after placement. We stay with your family through the entire employment period, from the first match to every day your caregiver shows up."
+      },
+      {
+        "q": "Where is NUOS currently available?",
+        "a": "NUOS is currently available in Indonesia only (Greater Jakarta, Bandung, Semarang, Surabaya). Expansion to other countries is coming soon."
+      },
+      {
+        "q": "How does payment work?",
+        "a": "You pay a one-time placement fee of Rp 1.500.000 when you hire. Monthly, you'll pay your caregiver's monthly salary (Rp 2.500.000–4.000.000) through NUOS and NUOS subscription fee (Rp 125.000–200.000). This is how we ensure you have 24/7 emergency hotline, replacement guarantee, smart caregiving & child development intelligence, and ongoing caregiver monitoring & training throughout the employment period."
+      },
+      {
+        "q": "What does NUOS do during the caregiver's employment?",
+        "a": "We stay active the entire time. Weekly pulse checks for both your family and your caregiver, a 24/7 emergency hotline, monthly performance check-ins, ongoing caregiver training, and child development guidance through our AI, NUOS Tumbuh. If something feels off, we're one tap away."
+      },
+      {
+        "q": "What does NUOS Tumbuh AI do?",
+        "a": "NUOS Tumbuh AI assists you in your caregiving journey. Every day, you and your caregiver get guided activities and stimulus recommendations based on your child's exact developmental stage. Every milestone gets logged, measured against WHO benchmarks, and summarized so you can see your child actually growing. It's smart caregiving built in, no more second guessing in parenting."
+      },
+      {
+        "q": "What if the caregiver isn't the right fit?",
+        "a": "Every caregiver employment through NUOS includes a free replacement guarantee for the whole employment period. If a caregiver is not working according to their work scope, misbehaves, or acts unprofessionally, tell us. We'll find you a new match at no additional fee."
+      },
+      {
+        "q": "Why NUOS and not another agency or platform?",
+        "a": "Other platforms find you a caregiver. We stay to make sure it actually works. We're with you from the first match to every check-in, every milestone, every time something feels off."
+      }
+    ]
+  },
+  "waitlist": {
+    "eyebrow": "Be first to experience NUOS",
+    "headline": "Your family deserve the best caregiver",
+    "subheadline": "Join the waitlist and we'll reach out the moment NUOS goes live in your city.",
+    "placeholder": "parent@email.com",
+    "button": "Join waitlist",
+    "meta1": "Free to join",
+    "meta2": "No spam, ever",
+    "meta3": "Launching August 2026",
+    "success": "You're on the list. We'll be in touch soon.",
+    "sending": "Joining…",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "tagline": "Nurturing, Understanding, Outstanding and Safe Care for families everywhere.",
+    "platform": "Platform",
+    "link1": "How it works",
+    "link2": "Features",
+    "link3": "Pricing",
+    "link4": "For caregivers",
+    "company": "Company",
+    "link5": "FAQ",
+    "langLabel": "Language",
+    "langEn": "English",
+    "langId": "Bahasa Indonesia",
+    "rights": "© 2026 NUOS Care. All rights reserved.",
+    "madeWith": "Made with ♡ for families everywhere."
+  },
+  "ui": {
+    "active": "Active",
+    "certified": "NUOS Certified",
+    "verifiedBadge": "Verified",
+    "topMatches": "Your Top 3 Matches",
+    "matchedFrom": "Matched from 847 verified profiles",
+    "interview": "Interview",
+    "floatCheck": "Background check",
+    "floatCheckVal": "Cleared ✓",
+    "floatMatch": "3 perfect matches",
+    "floatMatchVal": "in 47 hours",
+    "partnerDate": "Wednesday · Mar 12",
+    "navHome": "Home",
+    "navLogbook": "Logbook",
+    "navSupport": "NUOS Support",
+    "todaysTasks": "Today's Tasks",
+    "tasksProgress": "3 of 4 done",
+    "logbook": "Logbook",
+    "nuosSupport": "NUOS Support",
+    "developmentReport": "Development Report",
+    "aiSummary": "NUOS.AI Summary",
+    "aiSummaryText": "Strong cognitive growth this month. Vocabulary is the area to watch — worth noting in your next check-in.",
+    "measurements": "Measurements vs Benchmark",
+    "onTrack": "On Track",
+    "aboveAvg": "Above Avg",
+    "watch": "Watch",
+    "growthScore": "Overall Growth Score",
+    "caregiverLabel": "Caregiver",
+    "since": "Since Jan 2026",
+    "months": "months",
+    "weight": "Weight",
+    "height": "Height",
+    "vocabulary": "Vocabulary",
+    "words": "words",
+    "logbookNote": "\"Lina laughed so much during painting today — see the photo!\"",
+    "tasks": {
+      "t1": "Breakfast — finished oatmeal",
+      "t2": "Park play, 45 min outdoor",
+      "t3": "Painting time — 3 photos sent",
+      "t4": "Afternoon nap"
+    },
+    "skills": {
+      "infantCare": "Infant Care",
+      "cooking": "Cooking",
+      "english": "English",
+      "earlyEducation": "Early Education",
+      "firstAid": "First Aid"
+    }
+  }
+}
