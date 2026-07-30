@@ -50,6 +50,7 @@ export default function Footer() {
             <h4>{t('footer.company')}</h4>
             <ul>
               <li><a href="#faq">{t('footer.link5')}</a></li>
+              <li><a href="/investor">{t('footer.investors')}</a></li>
             </ul>
             <h4 style={{ marginTop: 24 }}>{t('footer.langLabel')}</h4>
             <div className="footer-lang">
