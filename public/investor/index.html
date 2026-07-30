@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NUOS Care — Investor Overview</title>
+<meta name="description" content="NUOS Care builds the infrastructure for in-home caregiving relationships — vetting, training, and placing caregivers, then staying for payroll, monitoring, and growth. AI-powered from matching to monitoring." />
+<link rel="icon" type="image/png" href="assets/logo-nuos.png" />
+<meta property="og:title" content="NUOS Care — Investor Overview" />
+<meta property="og:description" content="From Indonesia to the world: infrastructure for in-home caregiving relationships." />
+<meta property="og:type" content="website" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WFTB2VMCP3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-WFTB2VMCP3');
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  html, body { margin: 0; padding: 0; }
+  body { background: #FFFFFF; }
+  a { color: #5BA3D9; text-decoration: none; }
+  a:hover { color: #3A7FB5; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  @keyframes nuosRise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes nuosFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+  @keyframes nuosFlow { to { stroke-dashoffset: -220; } }
+
+  /* Interactive states (converted from design style-hover / style-active) */
+  .inv-navlink:hover { color: #5BA3D9 !important; border-bottom-color: #5BA3D9 !important; }
+  .inv-pinhome:hover { color: #3A7FB5 !important; border-bottom-color: #3A7FB5 !important; }
+  .inv-brief:hover { background: #3A7FB5 !important; color: #FFFFFF !important; }
+  .inv-brief:active { transform: scale(0.97); }
+  .inv-thesis:hover { box-shadow: 0 8px 22px rgba(0,0,0,0.11) !important; color: #333333 !important; }
+  .inv-thesis:active { transform: scale(0.97); }
+  .inv-carbtn:hover { box-shadow: 0 8px 22px rgba(51,51,51,0.14) !important; }
+  .inv-carbtn:active { transform: scale(0.94); }
+  .inv-contact:hover { background: #F2AFC8 !important; color: #333333 !important; box-shadow: 0 14px 30px rgba(247,198,217,0.75) !important; transform: translateY(-2px); }
+  .inv-contact:active { transform: scale(0.97); }
+  .inv-join:hover { background: #5BA3D9 !important; color: #FFFFFF !important; }
+
+  /* Carousel dots */
+  .inv-dot { width: 28px; height: 6px; border: none; border-radius: 999px; cursor: pointer; padding: 0; transition: background 240ms ease; background: #D8DDE3; }
+  .inv-dot.active { background: #5BA3D9; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 1024px) {
+    .inv-navlinks { display: none !important; }
+  }
+  @media (max-width: 900px) {
+    nav { padding: 12px 20px !important; }
+    section[data-screen-label] { padding-left: 22px !important; padding-right: 22px !important; }
+    #vision { padding: 104px 22px 56px !important; min-height: 0 !important; }
+    #team { padding: 60px 22px !important; }
+    footer { padding-left: 22px !important; padding-right: 22px !important; }
+
+    .inv-grid { grid-template-columns: 1fr !important; gap: 44px !important; }
+    .inv-h1 { font-size: 38px !important; max-width: none !important; }
+    .inv-h2 { font-size: 30px !important; max-width: none !important; }
+    .inv-traction-head { max-width: 100% !important; }
+    .inv-relax { white-space: normal !important; }
+
+    .inv-hero-visual { transform: scale(0.82) !important; transform-origin: center top; margin: -20px auto -40px !important; }
+    .inv-prod-slide { flex-direction: column !important; gap: 24px !important; padding: 8px !important; text-align: left; }
+    .inv-prod-img { flex: 0 0 auto !important; width: 240px !important; height: 380px !important; }
+
+    .inv-why-card { margin: 0 !important; }
+    .inv-team-img { margin-left: 0 !important; border-radius: 24px !important; height: 420px !important; }
+    .inv-team-text { align-items: flex-start !important; text-align: left !important; }
+
+    .inv-fixed-svg, .inv-scroll-hint { display: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<nav style="position: sticky; top: 0; z-index: 200; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 14px 48px; background: rgba(255,255,255,0.82); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid rgba(51,51,51,0.07); font-family: 'Poppins', sans-serif;">
+  <a href="#vision" style="display: flex; align-items: center; gap: 10px; color: #333333;">
+    <img src="assets/logo-nuos.png" alt="NUOS Care" style="width: 30px; height: 30px; display: block;" />
+    <span style="font-size: 14px; font-weight: 600; letter-spacing: 0.04em; white-space: nowrap;">NUOS Care</span>
+  </a>
+  <div class="inv-navlinks" style="display: flex; align-items: center; gap: 20px; flex-wrap: nowrap;">
+    <a href="#vision" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">Vision</a>
+    <a href="#problem" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">Problem</a>
+    <a href="#cross-border" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">Cross-Border</a>
+    <a href="#product" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">Product</a>
+    <a href="#revenue" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">Revenue</a>
+    <a href="#traction" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">Traction</a>
+    <a href="#team" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">Team</a>
+    <a href="#contact" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">Contact</a>
+  </div>
+</nav>
+
+<svg class="inv-fixed-svg" viewBox="0 0 120 1000" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position: fixed; top: 0; right: 0; width: 120px; height: 100vh; z-index: 150; pointer-events: none; opacity: 0.5;">
+  <path d="M96 -40 C 40 120, 104 260, 56 420 C 12 570, 92 700, 44 860 C 16 950, 70 1010, 60 1080" stroke="#5BA3D9" stroke-width="2" stroke-linecap="round" opacity="0.28" />
+  <circle cx="56" cy="420" r="4" fill="none" stroke="#5BA3D9" stroke-width="2" opacity="0.35" />
+  <circle cx="44" cy="860" r="4" fill="none" stroke="#5BA3D9" stroke-width="2" opacity="0.35" />
+</svg>
+
+<section id="vision" data-screen-label="Hero" style="position: relative; min-height: 100vh; box-sizing: border-box; overflow: hidden; display: flex; align-items: center; padding: 72px 88px; font-family: 'Poppins', sans-serif; color: #333333; background: radial-gradient(ellipse 56% 52% at 4% 6%, #F7C6D9 0%, rgba(247,198,217,0) 62%), radial-gradient(ellipse 62% 58% at 97% 90%, #B9D8F2 0%, rgba(185,216,242,0) 64%), radial-gradient(ellipse 40% 40% at 88% 2%, #EDE7FD 0%, rgba(237,231,253,0) 60%), #FFFFFF;">
+
+
+  <div class="inv-grid inv-hero-grid" style="width: 100%; max-width: 1240px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); align-items: center; gap: 88px;">
+
+    <div style="display: flex; flex-direction: column; align-items: flex-start; ">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 36px;">
+        <img src="assets/logo-nuos.png" alt="NUOS Care" style="width: 44px; height: 44px; display: block;" />
+        <div style="display: flex; flex-direction: column; gap: 1px;">
+          <span style="font-size: 15px; font-weight: 600; letter-spacing: 0.04em; color: #333333;">NUOS Care</span>
+          <span style="font-size: 11px; font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; color: #8A9099;">Investor Overview</span>
+        </div>
+      </div>
+
+      <h1 class="inv-h1" style="margin: 0; font-family: 'Libre Caslon Text', serif; font-size: 58px; line-height: 1.16; letter-spacing: -0.015em; font-weight: 400; color: #333333; text-wrap: pretty; max-width: 15ch;">From Indonesia to the world: <em style="font-style: normal; background: linear-gradient(120deg, #5BA3D9, #A78BFA); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">infrastructure for in-home caregiving relationship.</em></h1>
+
+      <p style="margin: 28px 0 0; font-size: 17px; line-height: 1.7; font-weight: 300; color: #56606B; max-width: 46ch; text-wrap: pretty;">We vet, train, and place in-home caregivers, then stay for the relationship: payroll, monitoring, and growth. AI-powered from matching to monitoring.</p>
+
+      <div style="display: flex; gap: 14px; margin-top: 40px; flex-wrap: wrap;">
+        <a href="mailto:losania@nuoscare.com" class="inv-brief" style="display: inline-flex; align-items: center; gap: 10px; background: #5BA3D9; color: #FFFFFF; font-size: 15px; font-weight: 600; padding: 15px 30px; border-radius: 999px; box-shadow: 0 10px 28px rgba(91,163,217,0.32); transition: background 220ms ease, transform 120ms ease;">Chat with us</a>
+        <a href="#problem" class="inv-thesis" style="display: inline-flex; align-items: center; gap: 10px; background: #FFFFFF; color: #333333; font-size: 15px; font-weight: 500; padding: 15px 28px; border-radius: 999px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); transition: box-shadow 220ms ease, transform 120ms ease;">See the thesis</a>
+      </div>
+    </div>
+
+    <div class="inv-hero-visual" style="position: relative; display: flex; justify-content: center; align-items: center; perspective: 1500px; perspective-origin: 30% 40%;">
+      <div style="position: absolute; width: 520px; height: 520px; border-radius: 999px; background: radial-gradient(circle, rgba(185,216,242,0.5) 0%, rgba(237,231,253,0.28) 45%, rgba(185,216,242,0) 70%);"></div>
+      <div style="position: absolute; bottom: 10px; left: 50%; width: 340px; height: 46px; transform: translateX(-46%) rotate(-3deg); border-radius: 999px; background: radial-gradient(ellipse, rgba(51,51,51,0.26) 0%, rgba(51,51,51,0) 72%);"></div>
+
+      <div style="position: relative; transform-style: preserve-3d; ">
+        <div style="position: relative; transform: rotateY(-21deg) rotateX(7deg) rotateZ(-2.5deg); transform-style: preserve-3d;">
+
+          <div style="position: absolute; left: -7px; top: 152px; width: 7px; height: 62px; border-radius: 3px 0 0 3px; background: linear-gradient(180deg, #4A4A4E, #2A2A2C); transform: translateZ(-6px);"></div>
+          <div style="position: absolute; left: -7px; top: 226px; width: 7px; height: 62px; border-radius: 3px 0 0 3px; background: linear-gradient(180deg, #4A4A4E, #2A2A2C); transform: translateZ(-6px);"></div>
+          <div style="position: absolute; right: -7px; top: 196px; width: 7px; height: 92px; border-radius: 0 3px 3px 0; background: linear-gradient(180deg, #4A4A4E, #2A2A2C); transform: translateZ(-6px);"></div>
+
+          <div style="position: relative; width: 336px; border-radius: 50px; padding: 3px; background: linear-gradient(140deg, #9AA0A6 0%, #3C3E42 22%, #1B1C1E 52%, #46484C 78%, #232527 100%); box-shadow: 0 62px 100px -28px rgba(51,51,51,0.42), 0 34px 54px -22px rgba(91,163,217,0.28), 0 10px 22px rgba(51,51,51,0.14);">
+            <div style="background: #0E0F10; border-radius: 47px; padding: 10px;">
+              <div style="position: relative; background: #FFFFFF; border-radius: 38px; overflow: hidden; height: 646px;">
+
+                <div style="position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: 104px; height: 28px; background: #0E0F10; border-radius: 999px; z-index: 5;"></div>
+
+                <div style="padding: 48px 16px 0; background: radial-gradient(ellipse at 0% 0%, #F7C6D9 0%, rgba(247,198,217,0) 62%), radial-gradient(ellipse at 100% 0%, #EDE9FE 0%, rgba(237,233,254,0) 55%), #FFFFFF;">
+                  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
+                    <span style="font-size: 13px; font-weight: 600; color: #333333;">Development Report</span>
+                    <img src="assets/logo-nuos.png" alt="NUOS" style="width: 28px; height: 28px; display: block;" />
+                  </div>
+
+                  <div style="background: rgba(255,255,255,0.78); border-radius: 20px; padding: 14px 16px 16px; box-shadow: 0 2px 16px rgba(0,0,0,0.06); display: flex; flex-direction: column; gap: 12px;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                      <img src="assets/maya-photo.png" alt="Maya" style="width: 52px; height: 52px; border-radius: 999px; object-fit: cover; object-position: center 20%; flex-shrink: 0;" />
+                      <div style="flex: 1; display: flex; flex-direction: column; gap: 2px;">
+                        <span style="font-family: 'Libre Caslon Text', serif; font-size: 22px; line-height: 1.1; color: #333333;">Maya</span>
+                        <span style="font-size: 11px; font-weight: 300; color: #8A9099;">Caregiver: Siti R. · Since Jan 2025</span>
+                      </div>
+                      <div style="background: linear-gradient(135deg, #5BA3D9, #A78BFA); border-radius: 14px; padding: 8px 12px; text-align: center; box-shadow: 0 4px 14px rgba(91,163,217,0.3);">
+                        <div style="font-family: 'Libre Caslon Text', serif; font-size: 20px; line-height: 1; color: #FFFFFF;">18</div>
+                        <div style="font-size: 9px; color: rgba(255,255,255,0.85); margin-top: 2px;">months</div>
+                      </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 6px;">
+                      <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <span style="font-size: 11px; color: #8A9099;">Overall Growth Score</span>
+                        <span style="font-size: 13px; font-weight: 600; color: #5BA3D9;">78<span style="font-size: 10px; font-weight: 300; color: #8A9099;">/100</span></span>
+                      </div>
+                      <div style="height: 7px; background: #F0F0F0; border-radius: 999px; overflow: hidden;">
+                        <div style="height: 100%; width: 78%; border-radius: 999px; background: linear-gradient(90deg, #5BA3D9, #A78BFA);"></div>
+                      </div>
+                      <span style="font-size: 9px; color: #BBBBBB;">Updated April 25, 2026 · Based on 38 caregiver logs</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="padding: 14px 16px 0; display: flex; flex-direction: column; gap: 12px;">
+                  <div style="background: linear-gradient(135deg, rgba(91,163,217,0.08), rgba(167,139,250,0.08)); border: 1px solid rgba(91,163,217,0.2); border-radius: 16px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px;">
+                    <div style="display: flex; align-items: center; gap: 6px;">
+                      <img src="assets/logo-nuos.png" alt="NUOS.AI" style="width: 20px; height: 20px; display: block;" />
+                      <span style="font-size: 11px; font-weight: 600; color: #5BA3D9;">NUOS.AI Summary</span>
+                    </div>
+                    <p style="margin: 0; font-size: 11.5px; line-height: 1.65; font-weight: 300; color: #333333;">Maya is progressing well for her age, with particular strength in cognitive development. <span style="color: #5BA3D9; font-weight: 500;">Language is the area to watch</span> at 10 words, where 15 to 20 is typical.</p>
+                  </div>
+
+                  <div style="background: #FFFFFF; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); padding: 14px; display: flex; flex-direction: column; gap: 12px;">
+                    <span style="font-size: 12.5px; font-weight: 600; color: #333333;">Measurements vs Benchmark</span>
+                    <div style="display: flex; flex-direction: column; gap: 5px;">
+                      <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <span style="font-size: 12px; color: #333333;">Height</span>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                          <span style="font-size: 12px; font-weight: 600; color: #333333;">81<span style="font-size: 10px; font-weight: 300; color: #8A9099;"> cm</span></span>
+                          <span style="background: #EDE9FE; color: #7C3AED; font-size: 10px; font-weight: 500; padding: 3px 8px; border-radius: 999px;">Above Average</span>
+                        </div>
+                      </div>
+                      <div style="height: 5px; background: #F0F0F0; border-radius: 999px; overflow: hidden;"><div style="height: 100%; width: 88%; background: #A78BFA; border-radius: 999px;"></div></div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 5px;">
+                      <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <span style="font-size: 12px; color: #333333;">Vocabulary</span>
+                        <div style="display: flex; align-items: center; gap: 6px;">
+                          <span style="font-size: 12px; font-weight: 600; color: #333333;">10<span style="font-size: 10px; font-weight: 300; color: #8A9099;"> words</span></span>
+                          <span style="background: #FFF3E0; color: #E65100; font-size: 10px; font-weight: 500; padding: 3px 8px; border-radius: 999px;">Needs Attention</span>
+                        </div>
+                      </div>
+                      <div style="height: 5px; background: #F0F0F0; border-radius: 999px; overflow: hidden;"><div style="height: 100%; width: 44%; background: #FF9800; border-radius: 999px;"></div></div>
+                    </div>
+                  </div>
+
+                  <div style="background: #FFFFFF; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); padding: 14px; display: flex; flex-direction: column; gap: 10px;">
+                    <div style="display: flex; align-items: center; justify-content: space-between;">
+                      <span style="font-size: 12.5px; font-weight: 600; color: #333333;">18-Month Milestones</span>
+                      <span style="font-size: 11px; font-weight: 500; color: #5BA3D9;">2/4 achieved</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                      <span style="width: 22px; height: 22px; border-radius: 999px; background: linear-gradient(135deg, #5BA3D9, #A78BFA); color: #FFFFFF; font-size: 11px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(91,163,217,0.3);">✓</span>
+                      <span style="flex: 1; font-size: 11.5px; color: #333333;">Walks independently without support</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                      <span style="width: 22px; height: 22px; border-radius: 999px; background: linear-gradient(135deg, #5BA3D9, #A78BFA); color: #FFFFFF; font-size: 11px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(91,163,217,0.3);">✓</span>
+                      <span style="flex: 1; font-size: 11.5px; color: #333333;">Says 10+ recognisable words</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                      <span style="width: 22px; height: 22px; border-radius: 999px; background: #F0F0F0; display: flex; align-items: center; justify-content: center;"><span style="width: 6px; height: 6px; border-radius: 999px; background: #D0D0D0;"></span></span>
+                      <span style="flex: 1; font-size: 11.5px; color: #8A9099;">Points to body parts when asked</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="position: absolute; inset: 0; pointer-events: none; z-index: 6; background: linear-gradient(118deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.14) 22%, rgba(255,255,255,0) 44%), linear-gradient(300deg, rgba(185,216,242,0.2) 0%, rgba(255,255,255,0) 34%);"></div>
+                <div style="position: absolute; inset: 0; pointer-events: none; z-index: 7; border-radius: 38px; box-shadow: inset 0 0 42px rgba(51,51,51,0.09), inset 2px 0 8px rgba(255,255,255,0.7);"></div>
+                <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 92px; pointer-events: none; z-index: 4; background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 70%, #FFFFFF 100%);"></div>
+                <div style="position: absolute; bottom: 9px; left: 50%; transform: translateX(-50%); width: 118px; height: 5px; border-radius: 999px; background: #C9CDD3; z-index: 8;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div style="position: absolute; z-index: 20; left: -52px; bottom: 122px; transform: translateZ(88px) rotateY(9deg); background: rgba(255,255,255,0.95); border-radius: 18px; box-shadow: 0 26px 50px -14px rgba(51,51,51,0.24), 0 4px 12px rgba(51,51,51,0.08); padding: 14px 16px; display: flex; align-items: center; gap: 12px; ">
+            <div style="width: 34px; height: 34px; border-radius: 999px; background: #B9D8F2; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #3A7FB5;">✓</div>
+            <div style="display: flex; flex-direction: column; gap: 2px;">
+              <span style="font-size: 12px; font-weight: 600; color: #333333;">12 month retention</span>
+              <span style="font-size: 11px; font-weight: 300; color: #8A9099;">81% of placements continue</span>
+            </div>
+          </div>
+
+          <div style="position: absolute; z-index: 20; right: -78px; top: 288px; transform: translateZ(76px) rotateY(9deg); background: rgba(255,255,255,0.95); border-radius: 18px; box-shadow: 0 26px 50px -14px rgba(51,51,51,0.24), 0 4px 12px rgba(51,51,51,0.08); padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; ">
+            <span style="font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: #A0A6AE;">NUOS.AI</span>
+            <span style="font-size: 12px; font-weight: 600; color: #333333;">96% match confidence</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="inv-scroll-hint" style="position: absolute; left: 88px; bottom: 40px; z-index: 2; display: flex; align-items: center; gap: 10px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A0A6AE;">
+    <span>Scroll</span>
+    <span style="width: 46px; height: 1px; background: #C7CDD4;"></span>
+  </div>
+</section>
+
+<section id="problem" data-screen-label="The Problem" data-fade="" style="position: relative; box-sizing: border-box; overflow: hidden; display: flex; align-items: center; padding: 40px 88px; font-family: 'Poppins', sans-serif; color: #333333; background: #F4F4F4;">
+  <div style="width: 100%; max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 72px;">
+
+    <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 30px;">
+      <span style="font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #A0A6AE;">The problem</span>
+      <h2 class="inv-h2" style="margin: 0; font-family: 'Libre Caslon Text', serif; font-size: 50px; line-height: 1.22; letter-spacing: -0.01em; font-weight: 400; color: #333333; max-width: 22ch; text-wrap: pretty;">Hiring a caregiver is stressful for families, let alone having a consistent caregiver.</h2>
+      <p style="margin: 0; font-size: 17px; line-height: 1.75; font-weight: 300; color: #56606B; max-width: 58ch; text-wrap: pretty;">Studies show that consistent caregiving provides a lasting foundation for emotional development. Our countries are aging. Who will take care of our children and our elders?</p>
+    </div>
+
+    <div class="inv-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 64px; padding-top: 48px; border-top: 1px solid rgba(51,51,51,0.09);">
+
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        <svg width="100%" height="96" viewBox="0 0 460 96" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block; overflow: visible;">
+          <path d="M8 62 C 40 62, 52 30, 84 30" stroke="#F7C6D9" stroke-width="2" stroke-linecap="round" />
+          <path d="M126 34 C 152 34, 158 70, 190 70" stroke="#F7C6D9" stroke-width="2" stroke-linecap="round" />
+          <path d="M232 66 C 258 66, 262 26, 292 26" stroke="#F7C6D9" stroke-width="2" stroke-linecap="round" />
+          <path d="M336 30 C 366 30, 372 64, 404 64" stroke="#F7C6D9" stroke-width="2" stroke-linecap="round" />
+          <circle cx="8" cy="62" r="4.5" fill="#FFFFFF" stroke="#F7C6D9" stroke-width="2" />
+          <circle cx="84" cy="30" r="4.5" fill="#FFFFFF" stroke="#F7C6D9" stroke-width="2" />
+          <circle cx="126" cy="34" r="4.5" fill="#FFFFFF" stroke="#F7C6D9" stroke-width="2" />
+          <circle cx="190" cy="70" r="4.5" fill="#FFFFFF" stroke="#F7C6D9" stroke-width="2" />
+          <circle cx="232" cy="66" r="4.5" fill="#FFFFFF" stroke="#F7C6D9" stroke-width="2" />
+          <circle cx="292" cy="26" r="4.5" fill="#FFFFFF" stroke="#F7C6D9" stroke-width="2" />
+          <circle cx="336" cy="30" r="4.5" fill="#FFFFFF" stroke="#F7C6D9" stroke-width="2" />
+          <circle cx="404" cy="64" r="4.5" fill="#FFFFFF" stroke="#F7C6D9" stroke-width="2" />
+          <path d="M100 48 L 112 48 M 204 48 L 218 48 M 306 48 L 320 48" stroke="#E8CBD6" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="1 6" />
+        </svg>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <span style="font-size: 14px; font-weight: 600; color: #333333;">Care that restarts</span>
+          <p style="margin: 0; font-size: 14px; line-height: 1.7; font-weight: 300; color: #8A9099; max-width: 40ch;">Each departure returns the family to the beginning: new search, new trust, new routine for the child.</p>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        <svg width="100%" height="96" viewBox="0 0 460 96" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block; overflow: visible;">
+          <path d="M8 66 C 92 66, 96 30, 160 30 C 226 30, 230 62, 296 62 C 356 62, 356 26, 404 26" stroke="#5BA3D9" stroke-width="2" stroke-linecap="round" />
+          <circle cx="8" cy="66" r="4.5" fill="#FFFFFF" stroke="#5BA3D9" stroke-width="2" />
+          <circle cx="160" cy="30" r="4.5" fill="#FFFFFF" stroke="#5BA3D9" stroke-width="2" />
+          <circle cx="296" cy="62" r="4.5" fill="#FFFFFF" stroke="#5BA3D9" stroke-width="2" />
+          <circle cx="404" cy="26" r="6.5" fill="#B9D8F2" stroke="#5BA3D9" stroke-width="2" />
+        </svg>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <span style="font-size: 14px; font-weight: 600; color: #333333;">Care that compounds</span>
+          <p style="margin: 0; font-size: 14px; line-height: 1.7; font-weight: 300; color: #8A9099; max-width: 40ch;">One caregiver who stays builds the familiarity a child grows on, and the household stops starting over.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cross-border" data-screen-label="Why Cross-Border, Why Indonesia" data-fade="" style="position: relative; box-sizing: border-box; overflow: hidden; display: flex; align-items: center; padding: 40px 88px; font-family: 'Poppins', sans-serif; color: #333333; background: rgba(185,216,242,0.15);">
+  <div class="inv-grid" style="width: 100%; max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); align-items: center; gap: 72px;">
+
+    <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 28px;">
+      <span style="font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #A0A6AE;">Why cross-border, why Indonesia</span>
+      <h2 class="inv-h2" style="margin: 0; font-family: 'Libre Caslon Text', serif; font-size: 46px; line-height: 1.24; letter-spacing: -0.01em; font-weight: 400; color: #333333; max-width: 18ch; text-wrap: pretty;">Indonesia is the world's <span style="background: linear-gradient(120deg, #5BA3D9, #A78BFA); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">#2 largest</span> domestic worker and caregiver exporter.</h2>
+      <p style="margin: 0; font-size: 17px; line-height: 1.75; font-weight: 300; color: #56606B; max-width: 44ch; text-wrap: pretty;">We build the supply pool then open to families all over the world.</p>
+    </div>
+
+    <div style="position: relative; width: 100%; aspect-ratio: 1000 / 584;">
+      <img src="assets/map-asia.png" alt="Indonesia and destination markets" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.9;" />
+
+      <svg viewBox="0 0 1000 584" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible;">
+        <path d="M620 480 Q 588 470 578 434" stroke="#5BA3D9" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 9" />
+        <path d="M620 480 Q 566 468 558 417" stroke="#5BA3D9" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 9" />
+        <path d="M620 480 Q 712 372 676 236" stroke="#5BA3D9" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 9" />
+        <path d="M620 480 Q 848 336 908 96" stroke="#5BA3D9" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 9" />
+        <path d="M620 480 Q 344 342 84 204" stroke="#5BA3D9" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 9" />
+        <circle cx="620" cy="480" r="7" fill="#5BA3D9" />
+        <circle cx="620" cy="480" r="15" fill="none" stroke="#5BA3D9" stroke-width="1.5" opacity="0.4" />
+        <circle cx="578" cy="432" r="5" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+        <circle cx="558" cy="415" r="5" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+        <circle cx="674" cy="231" r="5" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+        <circle cx="912" cy="88" r="5" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+        <circle cx="76" cy="200" r="5" fill="#FFFFFF" stroke="#333333" stroke-width="2" />
+      </svg>
+
+      <span style="position: absolute; left: 62%; top: 84.6%; transform: translate(-50%, 0); font-size: 12px; font-weight: 600; letter-spacing: 0.02em; color: #3A7FB5; white-space: nowrap;">Indonesia</span>
+      <span style="position: absolute; left: 57.4%; top: 79.5%; transform: translate(-100%, -50%); padding-right: 14px; font-size: 12px; font-weight: 400; color: #333333; white-space: nowrap;">Singapore</span>
+      <span style="position: absolute; left: 55.2%; top: 65%; transform: translate(-100%, -50%); padding-right: 14px; font-size: 12px; font-weight: 400; color: #333333; white-space: nowrap;">Malaysia</span>
+      <span style="position: absolute; left: 68.4%; top: 39.6%; transform: translate(0, -50%); padding-left: 12px; font-size: 12px; font-weight: 400; color: #333333; white-space: nowrap;">Hong Kong</span>
+      <span style="position: absolute; left: 91.2%; top: 15.1%; transform: translate(-50%, -140%); font-size: 12px; font-weight: 400; color: #333333; white-space: nowrap;">Japan</span>
+      <span style="position: absolute; left: 8.6%; top: 34.2%; transform: translate(0, -50%); padding-left: 12px; font-size: 12px; font-weight: 400; color: #333333; white-space: nowrap;">Middle East</span>
+    </div>
+  </div>
+</section>
+
+<section id="product" data-screen-label="The Product" data-fade="" style="position: relative; min-height: 88vh; box-sizing: border-box; display: flex; align-items: center; padding: 40px 88px; font-family: 'Poppins', sans-serif; color: #333333; background: #FFFFFF;">
+  <div style="width: 100%; max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 52px;">
+
+    <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; flex-wrap: wrap;">
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        <span style="font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #A0A6AE;">The product</span>
+        <h2 class="inv-h2" style="margin: 0; font-family: 'Libre Caslon Text', serif; font-size: 46px; line-height: 1.2; letter-spacing: -0.01em; font-weight: 400; color: #333333;">Four systems. <span style="background: linear-gradient(120deg, #5BA3D9, #A78BFA); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">One relationship.</span></h2>
+      </div>
+      <p class="inv-relax" style="margin: 0 0 6px; font-size: 15px; line-height: 1.7; font-weight: 300; color: #56606B; white-space: nowrap;">Each layer runs on its own product, and every product feeds the next.</p>
+    </div>
+
+    <div style="position: relative; display: flex; align-items: center; gap: 24px;">
+      <button type="button" id="inv-prev" class="inv-carbtn" aria-label="Previous product" style="flex: 0 0 auto; width: 48px; height: 48px; border: none; border-radius: 999px; background: #FFFFFF; box-shadow: 0 2px 12px rgba(0,0,0,0.1); color: #5BA3D9; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: box-shadow 200ms ease, transform 120ms ease;">‹</button>
+
+      <div style="flex: 1; overflow: hidden; border-radius: 20px;">
+        <div id="inv-track" style="display: flex; width: 400%; transition: transform 520ms cubic-bezier(.22,.61,.36,1); transform: translateX(0);">
+
+          <div style="width: 25%; box-sizing: border-box; padding: 4px;">
+            <div class="inv-prod-slide" style="padding: 24px 34px; display: flex; gap: 56px; align-items: center;">
+              <div class="inv-prod-img" style="flex: 0 0 268px; height: 424px; border-radius: 26px; overflow: hidden; background: #F4F4F4; box-shadow: 0 40px 64px -30px rgba(51,51,51,0.4), 0 8px 20px rgba(51,51,51,0.1);">
+                <img src="assets/ui-match.png" alt="NUOS Match screen" style="width: 100%; display: block;" />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <span style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #5BA3D9;">01</span>
+                <span style="font-family: 'Libre Caslon Text', serif; font-size: 30px; line-height: 1.2; color: #333333;">NUOS Match</span>
+                <p style="margin: 0; font-size: 16px; line-height: 1.75; font-weight: 300; color: #56606B; max-width: 34ch;">AI vetting and matching before a family ever meets a caregiver.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="width: 25%; box-sizing: border-box; padding: 4px;">
+            <div class="inv-prod-slide" style="padding: 24px 34px; display: flex; gap: 56px; align-items: center;">
+              <div class="inv-prod-img" style="flex: 0 0 268px; height: 424px; border-radius: 26px; overflow: hidden; background: #F4F4F4; box-shadow: 0 40px 64px -30px rgba(51,51,51,0.4), 0 8px 20px rgba(51,51,51,0.1);">
+                <img src="assets/ui-academy.png" alt="NUOS Academy screen" style="width: 100%; display: block;" />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <span style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #5BA3D9;">02</span>
+                <span style="font-family: 'Libre Caslon Text', serif; font-size: 30px; line-height: 1.2; color: #333333;">NUOS Academy</span>
+                <p style="margin: 0; font-size: 16px; line-height: 1.75; font-weight: 300; color: #56606B; max-width: 34ch;">Learn to earn training that raises wages with skill.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="width: 25%; box-sizing: border-box; padding: 4px;">
+            <div class="inv-prod-slide" style="padding: 24px 34px; display: flex; gap: 56px; align-items: center;">
+              <div class="inv-prod-img" style="flex: 0 0 268px; height: 424px; border-radius: 26px; overflow: hidden; background: #F4F4F4; box-shadow: 0 40px 64px -30px rgba(51,51,51,0.4), 0 8px 20px rgba(51,51,51,0.1);">
+                <img src="assets/ui-partner.png" alt="NUOS Partner screen" style="width: 100%; display: block;" />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <span style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #5BA3D9;">03</span>
+                <span style="font-family: 'Libre Caslon Text', serif; font-size: 30px; line-height: 1.2; color: #333333;">NUOS Partner</span>
+                <p style="margin: 0; font-size: 16px; line-height: 1.75; font-weight: 300; color: #56606B; max-width: 34ch;">Ongoing monitoring, payroll, and conflict resolution.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="width: 25%; box-sizing: border-box; padding: 4px;">
+            <div class="inv-prod-slide" style="padding: 24px 34px; display: flex; gap: 56px; align-items: center;">
+              <div class="inv-prod-img" style="flex: 0 0 268px; height: 424px; border-radius: 26px; overflow: hidden; background: #F4F4F4; box-shadow: 0 40px 64px -30px rgba(51,51,51,0.4), 0 8px 20px rgba(51,51,51,0.1);">
+                <img src="assets/ui-tumbuh.png" alt="NUOS Tumbuh screen" style="width: 100%; display: block;" />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <span style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #5BA3D9;">04</span>
+                <span style="font-family: 'Libre Caslon Text', serif; font-size: 30px; line-height: 1.2; color: #333333;">NUOS Tumbuh</span>
+                <p style="margin: 0; font-size: 16px; line-height: 1.75; font-weight: 300; color: #56606B; max-width: 34ch;">A shared, evidence based view of the child's development.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" id="inv-next" class="inv-carbtn" aria-label="Next product" style="flex: 0 0 auto; width: 48px; height: 48px; border: none; border-radius: 999px; background: #FFFFFF; box-shadow: 0 2px 12px rgba(0,0,0,0.1); color: #5BA3D9; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: box-shadow 200ms ease, transform 120ms ease;">›</button>
+    </div>
+
+    <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+      <button type="button" class="inv-dot" data-slide="0" aria-label="NUOS Match"></button>
+      <button type="button" class="inv-dot" data-slide="1" aria-label="NUOS Academy"></button>
+      <button type="button" class="inv-dot" data-slide="2" aria-label="NUOS Partner"></button>
+      <button type="button" class="inv-dot" data-slide="3" aria-label="NUOS Tumbuh"></button>
+    </div>
+
+    <p style="margin: 0; align-self: center; text-align: center; font-family: 'Libre Caslon Text', serif; font-size: 22px; line-height: 1.6; color: #333333; max-width: 52ch;">Together, they make a cross-border hire as safe as one next door.</p>
+  </div>
+</section>
+
+<section id="revenue" data-screen-label="Revenue Model" data-fade="" style="position: relative; box-sizing: border-box; display: flex; align-items: center; padding: 40px 88px; font-family: 'Poppins', sans-serif; color: #333333; background: #F4F4F4;">
+  <div style="width: 100%; max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 64px;">
+
+    <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 26px;">
+      <span style="font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #A0A6AE;">Revenue model</span>
+      <h2 class="inv-h2" style="margin: 0; font-family: 'Libre Caslon Text', serif; font-size: 46px; line-height: 1.24; letter-spacing: -0.01em; font-weight: 400; color: #333333; max-width: 24ch; text-wrap: pretty;">A business built to earn on <span style="background: linear-gradient(120deg, #5BA3D9, #A78BFA); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">quality</span>, not just placement.</h2>
+      <p style="margin: 0; font-size: 17px; line-height: 1.75; font-weight: 300; color: #56606B; max-width: 62ch; text-wrap: pretty;">Aligning incentives with families, preserving long-term relationships with caregivers.</p>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 0;">
+      <div class="inv-grid" style="display: grid; grid-template-columns: minmax(0, 1fr) 96px minmax(0, 1fr); align-items: stretch; gap: 0;">
+
+        <div style="background: #FFFFFF; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); padding: 28px; display: flex; flex-direction: column; gap: 14px;">
+          <span style="align-self: flex-start; background: #B9D8F2; color: #3A7FB5; font-size: 11px; font-weight: 500; padding: 5px 12px; border-radius: 999px;">One time</span>
+          <span style="font-family: 'Libre Caslon Text', serif; font-size: 26px; line-height: 1.3; color: #333333;">Placement fee</span>
+          <p style="margin: 0; font-size: 14px; line-height: 1.7; font-weight: 300; color: #8A9099; max-width: 34ch;">Charged once, when a vetted caregiver joins the household.</p>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: center; padding: 16px 0;">
+          <div style="display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 999px; background: #FFFFFF; box-shadow: 0 2px 12px rgba(0,0,0,0.08); font-size: 18px; font-weight: 300; color: #5BA3D9;">+</div>
+        </div>
+
+        <div style="background: #FFFFFF; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); padding: 28px; display: flex; flex-direction: column; gap: 14px;">
+          <span style="align-self: flex-start; background: #F7C6D9; color: #333333; font-size: 11px; font-weight: 500; padding: 5px 12px; border-radius: 999px;">Ongoing</span>
+          <span style="font-family: 'Libre Caslon Text', serif; font-size: 26px; line-height: 1.3; color: #333333;">5% of monthly salary</span>
+          <p style="margin: 0; font-size: 14px; line-height: 1.7; font-weight: 300; color: #8A9099; max-width: 34ch;">Management fee covering training, monitoring, payroll, and support.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="traction" data-screen-label="Why Now" data-fade="" style="position: relative; min-height: 82vh; overflow: hidden; box-sizing: border-box; display: flex; align-items: center; padding: 88px; font-family: 'Poppins', sans-serif; color: #333333; background: rgba(185,216,242,0.15);">
+  <svg viewBox="0 0 1440 620" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;">
+    <path d="M-40 520 C 260 520, 300 300, 620 300 C 940 300, 980 120, 1480 60" stroke="#5BA3D9" stroke-width="2" stroke-linecap="round" opacity="0.22" />
+    <circle cx="620" cy="300" r="5" fill="none" stroke="#5BA3D9" stroke-width="2" opacity="0.3" />
+  </svg>
+
+  <div style="position: relative; width: 100%; max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px;">
+    <div class="inv-traction-head" style="display: flex; flex-direction: column; align-items: flex-start; gap: 22px; max-width: 62%;">
+      <span style="font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #7C8794;">Why now</span>
+      <h2 class="inv-h2" style="margin: 0; font-family: 'Libre Caslon Text', serif; font-size: 44px; line-height: 1.24; letter-spacing: -0.01em; font-weight: 400; color: #333333; text-wrap: pretty;">We are launching our operational, paid pilot this <span style="background: linear-gradient(120deg, #5BA3D9, #A78BFA); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">August 2026</span> in Indonesia.</h2>
+      <p style="margin: 0; font-size: 16px; line-height: 1.75; font-weight: 300; color: #56606B; max-width: 56ch; text-wrap: pretty;">Starting with childcare, then rolling out to elderly care. Indonesia alone has 11 million families and a ~$3.6B serviceable market for childcare, with hundreds of billions worldwide.</p>
+    </div>
+
+    <div class="inv-grid" style="display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr) minmax(0, 0.5fr); align-items: start; gap: 28px;">
+      <div class="inv-why-card" style="background: #FFFFFF; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); padding: 28px; display: flex; flex-direction: column; gap: 10px; margin-top: 44px;">
+        <span style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A0A6AE;">Paid pilot</span>
+        <span style="font-family: 'Libre Caslon Text', serif; font-size: 34px; line-height: 1.1; color: #5BA3D9;">August 2026</span>
+        <span style="font-size: 14px; font-weight: 300; line-height: 1.7; color: #56606B;">Operational in Indonesia, childcare first.</span>
+      </div>
+      <div class="inv-why-card" style="background: #FFFFFF; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); padding: 28px; display: flex; flex-direction: column; gap: 10px; margin-left: 32px;">
+        <span style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #A0A6AE;">Serviceable market</span>
+        <span style="font-family: 'Libre Caslon Text', serif; font-size: 34px; line-height: 1.1; color: #5BA3D9;">~$3.6B</span>
+        <span style="font-size: 14px; font-weight: 300; line-height: 1.7; color: #56606B;">Childcare in Indonesia, across 11 million families.</span>
+      </div>
+      <div></div>
+    </div>
+  </div>
+</section>
+
+<section id="team" data-screen-label="Founder Fit" data-fade="" style="position: relative; overflow: hidden; box-sizing: border-box; display: flex; align-items: center; padding: 88px 88px 88px 0; font-family: 'Poppins', sans-serif; color: #333333; background: #FFFFFF;">
+  <div class="inv-grid" style="width: 100%; max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: 72px;">
+    <div class="inv-team-img" style="position: relative; height: 520px; margin-left: -64px; border-radius: 0 24px 24px 0; overflow: hidden; box-shadow: 0 40px 70px -40px rgba(51,51,51,0.3);">
+      <img src="assets/losania-portrait.webp" alt="Losania, Founder &amp; CEO" style="width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block;" />
+    </div>
+
+    <div class="inv-team-text" style="display: flex; flex-direction: column; align-items: flex-end; text-align: right; gap: 22px;">
+      <span style="font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #A0A6AE;">Why you</span>
+      <h2 class="inv-h2" style="margin: 0; font-family: 'Libre Caslon Text', serif; font-size: 44px; line-height: 1.2; letter-spacing: -0.01em; font-weight: 400; color: #333333;">Losania, Founder &amp; CEO.</h2>
+      <div style="display: flex; align-items: center; justify-content: flex-end; gap: 14px; flex-wrap: wrap; font-size: 13px; font-weight: 500; color: #3A7FB5;">
+        <span>Indonesian</span>
+        <span style="color: #C7CDD4;">·</span>
+        <span>Stanford GSB</span>
+        <span style="color: #C7CDD4;">·</span>
+        <span>Scaled up SEA Startup <a href="https://www.pinhome.id" class="inv-pinhome" style="border-bottom: 1px solid transparent; transition: color 180ms ease, border-color 180ms ease;">Pinhome</a></span>
+      </div>
+      <p style="margin: 0; font-size: 18px; line-height: 1.8; font-weight: 300; color: #56606B; max-width: 44ch; text-wrap: pretty;">Her mother and sister both gave up careers for lack of trusted childcare, 30 years later, nothing has changed.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" data-screen-label="Close" data-fade="" style="position: relative; box-sizing: border-box; display: flex; align-items: center; justify-content: center; padding: 72px 88px; font-family: 'Poppins', sans-serif; color: #333333; background: #F4F4F4;">
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 20px; max-width: 700px;">
+    <h2 class="inv-h2" style="margin: 0; font-family: 'Libre Caslon Text', serif; font-size: 38px; line-height: 1.3; font-weight: 400; color: #333333; text-wrap: pretty;">Are you up for the challenge to solve a real-world problem?</h2>
+    <p style="margin: 0; font-size: 16px; font-weight: 300; color: #56606B;">Reach out to build with us.</p>
+    <a href="mailto:hello@nuoscare.com" class="inv-contact" style="margin-top: 8px; display: inline-flex; align-items: center; padding: 15px 34px; border-radius: 999px; background: #F7C6D9; color: #333333; font-size: 15px; font-weight: 600; box-shadow: 0 6px 18px rgba(247,198,217,0.6); transition: background 200ms ease, box-shadow 200ms ease, transform 160ms ease;">Contact us</a>
+  </div>
+</section>
+
+<section id="hiring" data-screen-label="Hiring" data-fade="" style="position: relative; box-sizing: border-box; padding: 64px 88px; font-family: 'Poppins', sans-serif; color: #333333; background: #FFFFFF;">
+  <div style="max-width: 1180px; margin: 0 auto; display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; flex-wrap: wrap;">
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <span style="font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #A0A6AE;">Hiring</span>
+      <span style="font-family: 'Libre Caslon Text', serif; font-size: 26px; line-height: 1.3; color: #333333;">We are hiring for problem solvers.</span>
+      <span style="font-size: 14px; font-weight: 300; color: #56606B;">Send your CV and talk with us.</span>
+    </div>
+    <a href="mailto:careers@nuoscare.com" class="inv-join" style="display: inline-flex; align-items: center; padding: 12px 26px; border-radius: 999px; border: 1px solid #5BA3D9; color: #5BA3D9; font-size: 14px; font-weight: 500; transition: background 200ms ease, color 200ms ease;">Join us</a>
+  </div>
+</section>
+
+<footer style="box-sizing: border-box; padding: 40px 88px 48px; font-family: 'Poppins', sans-serif; background: #FFFFFF; border-top: 1px solid rgba(51,51,51,0.08);">
+  <div style="max-width: 1180px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <img src="assets/logo-nuos.png" alt="NUOS Care" style="width: 34px; height: 34px; display: block;" />
+      <div style="display: flex; flex-direction: column; gap: 2px;">
+        <span style="font-size: 13px; font-weight: 600; letter-spacing: 0.04em; color: #333333;">NUOS Care</span>
+        <span style="font-size: 11px; font-weight: 300; color: #A0A6AE;">Built for parents. Built for caregivers.</span>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 22px; flex-wrap: wrap;">
+      <a href="https://www.instagram.com/nuoscare_id/" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">Instagram</a>
+      <a href="https://www.linkedin.com/company/nuos-care/" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">LinkedIn</a>
+      <a href="https://www.tiktok.com/@nuoscare" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">TikTok</a>
+      <a href="mailto:hello@nuoscare.com" class="inv-navlink" style="font-size: 13px; font-weight: 400; white-space: nowrap; color: #56606B; border-bottom: 1px solid transparent; padding-bottom: 2px; transition: color 180ms ease, border-color 180ms ease;">hello@nuoscare.com</a>
+    </div>
+    <span style="font-size: 12px; font-weight: 300; color: #A0A6AE;">© 2026 NUOS Care. All rights reserved.</span>
+  </div>
+</footer>
+
+<script>
+  // Product carousel
+  (function () {
+    var track = document.getElementById('inv-track');
+    var dots = Array.prototype.slice.call(document.querySelectorAll('.inv-dot'));
+    var n = 4, slide = 0;
+    function render() {
+      track.style.transform = 'translateX(' + (-25 * slide) + '%)';
+      dots.forEach(function (d, i) { d.classList.toggle('active', i === slide); });
+    }
+    function go(i) { slide = ((i % n) + n) % n; render(); }
+    var prev = document.getElementById('inv-prev');
+    var next = document.getElementById('inv-next');
+    if (prev) prev.addEventListener('click', function () { go(slide - 1); });
+    if (next) next.addEventListener('click', function () { go(slide + 1); });
+    dots.forEach(function (d, i) { d.addEventListener('click', function () { go(i); }); });
+    render();
+  })();
+
+  // Scroll reveal (fade + rise) on [data-fade] sections
+  (function () {
+    var targets = Array.prototype.slice.call(document.querySelectorAll('[data-fade]'));
+    targets.forEach(function (el) {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(16px)';
+      el.style.transition = 'opacity 620ms ease, transform 620ms ease';
+      el.style.willChange = 'opacity, transform';
+    });
+    if (!('IntersectionObserver' in window)) {
+      targets.forEach(function (el) { el.style.opacity = '1'; el.style.transform = 'none'; });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+          e.target.style.willChange = 'auto';
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -6% 0px' });
+    targets.forEach(function (t) { io.observe(t); });
+  })();
+</script>
+</body>
+</html>

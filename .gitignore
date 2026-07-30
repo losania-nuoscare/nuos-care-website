@@ -13,6 +13,7 @@ yarn-error.log*
 
 # Local-only design references (heavy source files, not needed to build/deploy)
 design-reference/
+NUOS Care investor hero section/
 
 # Editor / local tooling
 .claude/
