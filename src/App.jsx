@@ -8,16 +8,11 @@ import Waitlist from './components/Waitlist.jsx';
 import Footer from './components/Footer.jsx';
 
 export default function App() {
-  const goToWaitlist = () => {
-    const el = document.getElementById('waitlist');
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <>
-      <Header onCTA={goToWaitlist} />
+      <Header />
       <main>
-        <Hero onCTA={goToWaitlist} />
+        <Hero />
         <HowItWorks />
         <WhyNUOS />
         <Pricing />

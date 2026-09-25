@@ -4,14 +4,14 @@
     "whyNuos": "Why NUOS",
     "pricing": "Pricing",
     "faq": "FAQ",
-    "cta": "Join the waitlist"
+    "cta": "Find your match"
   },
   "hero": {
     "headlinePre": "Peace of mind,",
     "headlineEm": "delivered",
     "headlineGrad": "to your doorstep.",
     "subheadline": "The only platform that stays with your family — from the moment you meet your caregiver to your everyday relationship.",
-    "ctaPrimary": "Join the waitlist →",
+    "ctaPrimary": "Find your match →",
     "ctaSecondary": "See how it works",
     "trust1": "Background checked & verified caregiver",
     "trust2": "Ongoing support, not just placement",
@@ -120,17 +120,12 @@
     ]
   },
   "waitlist": {
-    "eyebrow": "Be first to experience NUOS",
+    "eyebrow": "Be the first to experience NUOS",
     "headline": "Your family deserve the best caregiver",
-    "subheadline": "Join the waitlist and we'll reach out the moment NUOS goes live in your city.",
-    "placeholder": "parent@email.com",
-    "button": "Join waitlist",
+    "subheadline": "Pilot Batch 1 starts 7 October 2026 for the Jabodetabek area. Limited slots! Sign up now.",
+    "button": "Find your match",
     "meta1": "Free to join",
-    "meta2": "No spam, ever",
-    "meta3": "Launching August 2026",
-    "success": "You're on the list. We'll be in touch soon.",
-    "sending": "Joining…",
-    "error": "Something went wrong. Please try again."
+    "meta2": "No spam, ever"
   },
   "footer": {
     "tagline": "Nurturing, Understanding, Outstanding and Safe Care for families everywhere.",

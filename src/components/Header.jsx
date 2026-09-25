@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useLang } from '../i18n/LanguageContext.jsx';
+import { WAITLIST_FORM_URL, trackWaitlistClick } from '../config.js';
 
-export default function Header({ onCTA }) {
+export default function Header() {
   const { t, lang, setLang } = useLang();
   const [scrolled, setScrolled] = useState(false);
 
@@ -54,13 +55,16 @@ export default function Header({ onCTA }) {
               ID
             </button>
           </div>
-          <button
+          <a
             className="btn btn-primary"
             style={{ padding: '10px 22px', fontSize: 14 }}
-            onClick={onCTA}
+            href={WAITLIST_FORM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => trackWaitlistClick(lang)}
           >
             {t('nav.cta')}
-          </button>
+          </a>
         </div>
       </div>
     </header>

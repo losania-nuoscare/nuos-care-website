@@ -2,9 +2,10 @@ import { useLang } from '../i18n/LanguageContext.jsx';
 import Reveal from './Reveal.jsx';
 import Icon from './Icon.jsx';
 import PhoneAppPreview from './PhoneAppPreview.jsx';
+import { WAITLIST_FORM_URL, trackWaitlistClick } from '../config.js';
 
-export default function Hero({ onCTA }) {
-  const { t } = useLang();
+export default function Hero() {
+  const { t, lang } = useLang();
   const em = t('hero.headlineEm');
 
   return (
@@ -29,9 +30,15 @@ export default function Hero({ onCTA }) {
           </Reveal>
           <Reveal delay={3}>
             <div className="hero-cta">
-              <button className="btn btn-primary" onClick={onCTA}>
+              <a
+                className="btn btn-primary"
+                href={WAITLIST_FORM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackWaitlistClick(lang)}
+              >
                 {t('hero.ctaPrimary')}
-              </button>
+              </a>
               <a href="#how" className="btn btn-ghost">
                 {t('hero.ctaSecondary')}
               </a>

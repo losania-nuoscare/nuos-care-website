@@ -4,14 +4,14 @@
     "whyNuos": "Kenapa NUOS",
     "pricing": "Biaya",
     "faq": "FAQ",
-    "cta": "Daftar Waitlist"
+    "cta": "Temukan Pengasuh Anda"
   },
   "hero": {
     "headlinePre": "Pengasuh terbaik untuk si kecil,",
     "headlineEm": "",
     "headlineGrad": "ada di sini.",
     "subheadline": "Satu-satunya platform yang mendampingi hubungan Anda dengan pengasuh, dari hari pertama hingga terakhir.",
-    "ctaPrimary": "Daftar Waitlist →",
+    "ctaPrimary": "Temukan Pengasuh Anda →",
     "ctaSecondary": "Lihat cara kerjanya",
     "trust1": "Pengasuh terseleksi dan terverifikasi",
     "trust2": "Pendampingan penuh, bukan sekadar penempatan",
@@ -120,17 +120,12 @@
     ]
   },
   "waitlist": {
-    "eyebrow": "Jadilah yang pertama untuk berlangganan NUOS",
+    "eyebrow": "Jadilah yang pertama merasakan NUOS",
     "headline": "Keluarga Anda layak mendapat pengasuh terbaik",
-    "subheadline": "Daftar waitlist dan kami akan menghubungi Anda begitu NUOS hadir di kota Anda.",
-    "placeholder": "orangtua@email.com",
-    "button": "Daftar Waitlist",
+    "subheadline": "Pilot Batch 1 dimulai 7 Oktober 2026 untuk area Jabodetabek. Slot terbatas! Daftar sekarang.",
+    "button": "Temukan Pengasuh Anda",
     "meta1": "Gratis untuk bergabung",
-    "meta2": "Tidak ada spam",
-    "meta3": "Mulai Agustus 2026",
-    "success": "Anda sudah terdaftar. Kami akan segera menghubungi Anda.",
-    "sending": "Mendaftar…",
-    "error": "Terjadi kesalahan. Silakan coba lagi."
+    "meta2": "Tidak ada spam"
   },
   "footer": {
     "tagline": "Nurturing, Understanding, Outstanding and Safe Care for families everywhere.",

@@ -9,7 +9,7 @@ Bilingual (Bahasa Indonesia / English) marketing site for NUOS Care, built with 
 - **Prices always display in IDR** regardless of the active language.
 - **Scroll animations** via `IntersectionObserver` ([`src/components/Reveal.jsx`](src/components/Reveal.jsx)): fade + slide-up on entry, `ease-out` 400ms, cards stagger by 100ms.
 - NUOS brand names (NUOS Match, NUOS Partner, NUOS Tumbuh, NUOS.AI), caregiver names, and the WHO / BPJS acronyms are never translated.
-- **Waitlist signups** are saved to a Supabase (Postgres) table via a serverless function ([`api/waitlist.js`](api/waitlist.js)). See [Waitlist database](#waitlist-database-supabase).
+- **Signups** ("Find your match" buttons) open a **Google Form** in a new tab; Google collects responses and sends the confirmation email. The form URL lives in [`src/config.js`](src/config.js), which also fires a GA4 `generate_lead` conversion on click.
 
 ## Develop
 
@@ -36,30 +36,19 @@ npm i -g vercel
 vercel
 ```
 
-## Waitlist database (Supabase)
+## Signups (Google Form)
 
-Signups from the waitlist form are POSTed to `/api/waitlist`, a Vercel serverless
-function that inserts the email into a Supabase table. The Supabase **service-role**
-key lives only on the server (never shipped to the browser).
+The "Find your match" buttons (navbar, hero, and the bottom section) open a Google
+Form in a new tab. Google stores responses in its own Sheet and sends the responder
+a confirmation email (Form → Settings → Responses → "Send responders a copy").
 
-**One-time setup (~5 min):**
+- **To change the form:** edit `WAITLIST_FORM_URL` in [`src/config.js`](src/config.js).
+- **Ads tracking:** clicking a button fires a GA4 `generate_lead` event
+  (`trackWaitlistClick` in the same file), which you can mark as a Key event and
+  import into Google Ads as a conversion.
 
-1. Create a free project at [supabase.com](https://supabase.com).
-2. In the Supabase dashboard → **SQL Editor**, run the contents of
-   [`supabase-schema.sql`](supabase-schema.sql) (creates the `waitlist` table).
-3. In Supabase → **Settings → API**, copy the **Project URL** and the
-   **`service_role`** key.
-4. In Vercel → your project → **Settings → Environment Variables**, add:
-   - `SUPABASE_URL` = the Project URL
-   - `SUPABASE_SERVICE_ROLE_KEY` = the service_role key
-5. Redeploy. Signups now land in Supabase → **Table Editor → waitlist** (browse /
-   export from there).
-
-**Testing locally:** `npm run dev` (Vite) does **not** run the `/api` function, so
-the form will report an error locally. To test the full flow, copy `.env.example`
-to `.env`, fill in the two values, and run `vercel dev` instead. Otherwise it just
-works once deployed to Vercel with the env vars set. Duplicate emails are ignored
-gracefully (the `email` column is `UNIQUE`).
+There is no backend/database to run — the earlier Supabase + email function was
+removed once signups moved to the Google Form.
 
 ## Structure
 
@@ -67,6 +56,7 @@ gracefully (the `email` column is `UNIQUE`).
 src/
   App.jsx                    # section composition
   main.jsx                   # entry + LanguageProvider
+  config.js                  # Google Form URL + GA4 conversion helper
   index.css                  # design tokens + component styles (Tailwind layered)
   i18n/
     LanguageContext.jsx      # lang state, t() helper, default = id
@@ -79,13 +69,9 @@ src/
     WhyNUOS.jsx, Pricing.jsx, FAQ.jsx, Waitlist.jsx, Footer.jsx
     Reveal.jsx               # IntersectionObserver scroll animation
     Icon.jsx                 # inline SVG icons
-api/
-  waitlist.js                # Vercel serverless function → inserts email into Supabase
 public/assets/               # logo + caregiver/child photos (optimized)
 docs/
   NUOS_Bilingual_Content_EN_ID.md   # source spec for all EN/ID copy
-supabase-schema.sql          # run once in Supabase to create the waitlist table
-.env.example                 # SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY template
 vercel.json                  # Vercel framework + routing config
 ```
 
