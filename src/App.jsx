@@ -6,6 +6,7 @@ import Pricing from './components/Pricing.jsx';
 import FAQ from './components/FAQ.jsx';
 import Waitlist from './components/Waitlist.jsx';
 import Footer from './components/Footer.jsx';
+import WhatsAppFloat from './components/WhatsAppFloat.jsx';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Waitlist />
       </main>
       <Footer />
+      <WhatsAppFloat />
     </>
   );
 }

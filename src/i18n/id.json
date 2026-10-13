@@ -43,17 +43,17 @@
     "card1": {
       "tag": "NUOS Match",
       "headline": "Setiap pengasuh terpercaya dan profesional",
-      "description": "Pemeriksaan latar belakang, tes kesehatan, uji keterampilan, dan pelatihan — semua dilakukan sebelum hari pertama."
+      "description": "Verifikasi identitas, pemeriksaan jejak digital, skrining kesehatan mental, pelatihan tatap muka, dan uji keterampilan. Apabila tidak lulus, pengasuh tidak akan dihubungkan dengan Anda."
     },
     "card2": {
       "tag": "NUOS Partner",
       "headline": "Ada masalah? Kami siap menangani.",
-      "description": "BPJS, gaji tepat waktu, jaminan penggantian pengasuh, dan dukungan 24/7 selama masa kontrak berjalan."
+      "description": "Manajemen gaji, cuti, penggantian pengasuh, monitoring kinerja pengasuh, dan dukungan 24/7 selama masa kerja sama."
     },
     "card3": {
       "tag": "NUOS Tumbuh",
       "headline": "Smart caregiving, bukan lagi kira-kira.",
-      "description": "Pengasuh Anda tahu apa yang harus dilakukan selanjutnya. Aktivitas dipandu sesuai tahap perkembangan anak Anda."
+      "description": "Aktivitas bersama anak dipandu secara personal sesuai tahap perkembangan anak Anda. Kualitas pengasuh terus meningkat, tanpa ribet."
     }
   },
   "pricing": {
@@ -65,25 +65,53 @@
       "name": "Biaya penempatan",
       "price": "Rp 1.500.000",
       "note": "Dibayar sekali saat Anda merekrut.",
-      "description": "Pemeriksaan latar belakang, seleksi, pelatihan pra-kerja, dan jaminan kesesuaian dengan preferensi."
+      "description": "Pemeriksaan latar belakang, seleksi, pelatihan pra-kerja, dan kesesuaian dengan preferensi.",
+      "badge": "Harga sampai 31 Oktober 2026"
     },
     "step2": {
       "stepLabel": "Langkah 2",
-      "name": "Gaji pengasuh",
-      "price": "Rp 2.500.000 – 4.000.000",
-      "note": "Dibayar setiap bulan.",
-      "description": "Dibayar melalui NUOS dan disalurkan langsung ke pengasuh Anda. Gaji tergantung pengalaman dan keahlian."
+      "name": "Gaji Pengasuh",
+      "price": "Mulai Rp 2.500.000",
+      "note": "Dibayar setiap bulan melalui NUOS.",
+      "description": "Diterima 100% oleh pengasuh. Gaji berdasarkan pengalaman, keahlian, latar belakang pendidikan, dan kemampuan bahasa asing.",
+      "priceSuffix": "per bulan"
     },
     "step3": {
       "stepLabel": "Langkah 3",
-      "name": "NUOS subscription",
-      "price": "Rp 125.000 – 200.000",
-      "note": "Per bulan. 5% dari gaji pengasuh.",
-      "feature1": "Hotline darurat 24/7",
-      "feature2": "Jaminan penggantian selama masa kerja",
-      "feature3": "Smart caregiving untuk tumbuh kembang anak, dengan AI kami, NUOS Tumbuh",
-      "feature4": "Pemantauan & pelatihan berkelanjutan"
-    }
+      "name": "Management Fee",
+      "price": "5% dari gaji pengasuh",
+      "priceSuffix": "per bulan",
+      "note": "Dibayar setiap bulan ke NUOS.",
+      "features": [
+        "Hotline darurat 24/7",
+        "Penggantian pengasuh selama masa kerja*",
+        "Manajemen gaji, cuti, kesehatan mental, dan kualitas pengasuh",
+        "Smart caregiving untuk tumbuh kembang anak, dengan AI kami, NUOS Tumbuh",
+        "Pemantauan & pelatihan berkelanjutan"
+      ],
+      "footnote": "*Apabila pengasuh tidak memenuhi kontrak kerja."
+    },
+    "example": {
+      "title": "Contoh biaya bulanan",
+      "rows": [
+        [
+          "Gaji pengasuh",
+          "Rp 2.500.000"
+        ],
+        [
+          "Management fee (5%)",
+          "Rp 125.000"
+        ],
+        [
+          "BPJS Ketenagakerjaan",
+          "Rp 8.400"
+        ]
+      ],
+      "totalLabel": "Per bulan",
+      "total": "Rp 2.633.400",
+      "note": "Dibayarkan ke NUOS setiap bulan."
+    },
+    "legal": "Kebijakan NUOS mengacu pada UU No. 2 Tahun 2026 tentang Pelindungan Pekerja Rumah Tangga."
   },
   "faq": {
     "eyebrow": "FAQ",
@@ -91,15 +119,15 @@
     "items": [
       {
         "q": "Apa itu NUOS?",
-        "a": "NUOS adalah platform berbasis AI yang membantu keluarga menemukan, merekrut, dan mengelola pengasuh profesional. Kami mendampingi keluarga Anda sepanjang periode kerjasama, dari pertemuan pertama hingga keseharian Anda dengan pengasuh."
+        "a": "NUOS adalah jasa manajemen pengasuh keluarga. Anda membutuhkan pengasuh? Kami menyediakan pengasuh profesional yang sesuai dengan kebutuhan Anda. NUOS akan membina pengasuh selama periode kerja sama agar dapat memberikan pelayanan terbaik sesuai dengan kebutuhan personal anak Anda."
       },
       {
         "q": "Dimana saja area jangkauan NUOS?",
-        "a": "NUOS saat ini tersedia di Indonesia (Jabodetabek, Bandung, Semarang, Surabaya). Kami akan segera melakukan ekspansi ke kota dan negara lain."
+        "a": "NUOS tersedia di Jabodetabek hingga akhir tahun 2026. Kami akan segera melakukan ekspansi ke kota dan negara lain."
       },
       {
         "q": "Bagaimana sistem pembayaran di NUOS?",
-        "a": "Anda membayar biaya penempatan sekali sebesar Rp 1.500.000 saat merekrut. Setiap bulan Anda akan membayar gaji bulanan (Rp 2.500.000–4.000.000) melalui NUOS dan biaya berlangganan NUOS (Rp 125.000–200.000). Ini membantu kami menjamin hotline darurat 24/7, jaminan penggantian pengasuh, smart caregiving & NUOS Tumbuh (AI untuk tumbuh kembang), dan pemantauan dan pelatihan berkelanjutan untuk pengasuh selama periode kerjasama."
+        "a": "Anda membayar biaya penempatan sekali sebesar Rp 1.500.000 saat merekrut. Setiap bulan, Anda membayar ke NUOS gaji pengasuh (mulai Rp 2.500.000, diterima 100% oleh pengasuh), management fee sebesar 5% dari gaji pengasuh, dan BPJS Ketenagakerjaan. Management fee mencakup hotline darurat 24/7, penggantian pengasuh selama masa kerja, manajemen gaji dan cuti, smart caregiving dengan NUOS Tumbuh, serta pemantauan dan pelatihan berkelanjutan untuk pengasuh."
       },
       {
         "q": "Apa yang NUOS lakukan setelah rekrutmen pengasuh berhasil dilakukan?",
@@ -107,11 +135,12 @@
       },
       {
         "q": "Apa yang dilakukan NUOS Tumbuh AI?",
-        "a": "NUOS Tumbuh AI membantu Anda dalam perjalanan mengasuh anak. Setiap hari, Anda dan pengasuh mendapat panduan aktivitas dan rekomendasi stimulus berdasarkan tahap perkembangan spesifik anak Anda. Setiap pencapaian dicatat, diukur berdasarkan standar WHO, dan dirangkum agar Anda bisa melihat perkembangan nyata anak Anda. Tidak ada lagi parenting dengan perasaan saja."
+        "a": "NUOS Tumbuh AI membantu Anda dalam perjalanan mengasuh anak. Setiap hari, Anda dan pengasuh mendapat panduan aktivitas dan rekomendasi stimulus berdasarkan tahap perkembangan spesifik anak Anda. Setiap pencapaian dicatat, diukur berdasarkan standar WHO, dan dirangkum agar Anda bisa melihat perkembangan nyata anak Anda. Tidak ada lagi parenting dengan perasaan saja.",
+        "note": "Catatan: produk ini masih dalam tahap pengembangan. Keluarga yang bergabung di bulan Oktober dan November 2026 akan menjadi bagian dari perjalanan pengembangan NUOS Tumbuh AI."
       },
       {
         "q": "Bagaimana kalau pengasuh tidak cocok?",
-        "a": "Setiap pengasuh yang direkrut melalui NUOS sudah termasuk jaminan penggantian selama masa kerja sama. Apabila pengasuh tidak bekerja sesuai dengan lingkup kerja dan tanggung jawabnya atau tidak bersikap profesional, beritahu kami. Kami akan memberikan Anda pengasuh baru tanpa tambahan biaya."
+        "a": "Setiap pengasuh yang direkrut melalui NUOS sudah termasuk penggantian pengasuh selama masa kerja sama. Apabila pengasuh tidak bekerja sesuai dengan lingkup kerja dan tanggung jawabnya atau tidak bersikap profesional, beritahu kami. Kami akan memberikan Anda pengasuh baru tanpa tambahan biaya."
       },
       {
         "q": "Kenapa NUOS dan bukan yayasan atau jasa lain?",
@@ -125,7 +154,8 @@
     "subheadline": "Pilot Batch 1 dimulai 7 Oktober 2026 untuk area Jabodetabek. Slot terbatas! Daftar sekarang.",
     "button": "Temukan Pengasuh Anda",
     "meta1": "Gratis untuk bergabung",
-    "meta2": "Tidak ada spam"
+    "meta2": "Tidak ada spam",
+    "waCta": "Tanya via WhatsApp"
   },
   "footer": {
     "tagline": "Nurturing, Understanding, Outstanding and Safe Care for families everywhere.",
@@ -141,7 +171,8 @@
     "langEn": "English",
     "langId": "Bahasa Indonesia",
     "rights": "© 2026 NUOS Care. Semua hak dilindungi.",
-    "madeWith": "Dibuat dengan ♡ untuk keluarga di mana saja."
+    "madeWith": "Dibuat dengan ♡ untuk keluarga di mana saja.",
+    "legalName": "PT Inovasi Keluarga Indonesia"
   },
   "ui": {
     "active": "Aktif",
@@ -191,5 +222,9 @@
       "earlyEducation": "Edukasi Dini",
       "firstAid": "P3K"
     }
+  },
+  "whatsapp": {
+    "message": "Halo, saya ingin bertanya lebih lanjut mengenai Pengasuh NUOS",
+    "floatLabel": "Tanya kami"
   }
 }

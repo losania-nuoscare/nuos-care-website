@@ -33,7 +33,10 @@ export default function FAQ() {
                   <span>{it.q}</span>
                   <span className="faq-icon">+</span>
                 </div>
-                <div className="faq-a">{it.a}</div>
+                <div className="faq-a">
+                  {it.a}
+                  {it.note && <span className="faq-note">{it.note}</span>}
+                </div>
               </div>
             ))}
           </div>

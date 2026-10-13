@@ -1,7 +1,7 @@
 import { useLang } from '../i18n/LanguageContext.jsx';
 import Reveal from './Reveal.jsx';
 import Icon from './Icon.jsx';
-import { WAITLIST_FORM_URL, trackWaitlistClick } from '../config.js';
+import { WAITLIST_FORM_URL, trackWaitlistClick, whatsappUrl, trackWhatsAppClick } from '../config.js';
 
 export default function Waitlist() {
   const { t, lang } = useLang();
@@ -17,6 +17,7 @@ export default function Waitlist() {
             </span>
             <h2>{t('waitlist.headline')}</h2>
             <p>{t('waitlist.subheadline')}</p>
+            <div className="waitlist-actions">
             <a
               className="btn btn-primary waitlist-cta"
               href={WAITLIST_FORM_URL}
@@ -26,6 +27,17 @@ export default function Waitlist() {
             >
               {t('waitlist.button')}
             </a>
+            <a
+              className="btn-whatsapp waitlist-cta"
+              href={whatsappUrl(t('whatsapp.message'))}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => trackWhatsAppClick('waitlist', lang)}
+            >
+              <Icon.WA style={{ width: 20, height: 20 }} />
+              {t('waitlist.waCta')}
+            </a>
+            </div>
             <div className="waitlist-meta">
               <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
                 <Icon.Verified /> {t('waitlist.meta1')}

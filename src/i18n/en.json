@@ -43,17 +43,17 @@
     "card1": {
       "tag": "NUOS Match",
       "headline": "Every caregiver is trusted and professional",
-      "description": "Background checks, health screening, skills test, and training — all done before day one."
+      "description": "Identity verification, digital footprint check, mental health screening, in-person training, and skills test. Caregivers who don't pass are never matched with you."
     },
     "card2": {
       "tag": "NUOS Partner",
       "headline": "Something goes wrong? We've got it.",
-      "description": "BPJS, on-time salary, a replacement guarantee, and 24/7 support — for as long as your contract runs."
+      "description": "Payroll, leave management, caregiver replacement, caregiver performance monitoring, and 24/7 support for as long as you work with us."
     },
     "card3": {
       "tag": "NUOS Tumbuh",
       "headline": "Smart caregiving, built in.",
-      "description": "Your caregiver always knows what to do next. Activities guided by your child's exact developmental stage."
+      "description": "Activities with your child are personally guided to match their developmental stage. Your caregiver keeps getting better, hassle-free."
     }
   },
   "pricing": {
@@ -65,25 +65,53 @@
       "name": "Placement fee",
       "price": "Rp 1.500.000",
       "note": "Paid once when you hire.",
-      "description": "Background check, vetting, pre-employment training, and compatibility match guaranteed."
+      "description": "Background check, vetting, pre-employment training, and a match to your preferences.",
+      "badge": "Price valid until 31 October 2026"
     },
     "step2": {
       "stepLabel": "Step 2",
-      "name": "Caregiver salary",
-      "price": "Rp 2.500.000 – 4.000.000",
-      "note": "Paid monthly.",
-      "description": "Goes directly to your caregiver via NUOS. Salary depends on experience and skillset."
+      "name": "Caregiver Salary",
+      "price": "From Rp 2.500.000",
+      "note": "Paid monthly through NUOS.",
+      "description": "100% goes to your caregiver. Salary is based on experience, skills, educational background, and foreign language ability.",
+      "priceSuffix": "per month"
     },
     "step3": {
       "stepLabel": "Step 3",
-      "name": "NUOS subscription",
-      "price": "Rp 125.000 – 200.000",
-      "note": "Per month. 5% of caregiver salary.",
-      "feature1": "24/7 emergency hotline",
-      "feature2": "Replacement guarantee for entire employment period",
-      "feature3": "Smart caregiving & child development intelligence, with our AI, NUOS Tumbuh",
-      "feature4": "Ongoing caregiver monitoring & training"
-    }
+      "name": "Management Fee",
+      "price": "5% of caregiver salary",
+      "priceSuffix": "per month",
+      "note": "Paid monthly to NUOS.",
+      "features": [
+        "24/7 emergency hotline",
+        "Caregiver replacement during employment*",
+        "Payroll, leave, mental health, and caregiver quality management",
+        "Smart caregiving & child development intelligence, with our AI, NUOS Tumbuh",
+        "Ongoing caregiver monitoring & training"
+      ],
+      "footnote": "*If the caregiver does not fulfil their employment contract."
+    },
+    "example": {
+      "title": "Example monthly cost",
+      "rows": [
+        [
+          "Caregiver salary",
+          "Rp 2.500.000"
+        ],
+        [
+          "Management fee (5%)",
+          "Rp 125.000"
+        ],
+        [
+          "BPJS Ketenagakerjaan",
+          "Rp 8.400"
+        ]
+      ],
+      "totalLabel": "Per month",
+      "total": "Rp 2.633.400",
+      "note": "Paid to NUOS every month."
+    },
+    "legal": "NUOS policies follow Indonesian Law No. 2 of 2026 on the Protection of Domestic Workers (UU PPRT)."
   },
   "faq": {
     "eyebrow": "FAQ",
@@ -91,15 +119,15 @@
     "items": [
       {
         "q": "What is NUOS?",
-        "a": "NUOS is an AI-native platform that helps families find, hire, and manage professional caregivers. We don't disappear after placement. We stay with your family through the entire employment period, from the first match to every day your caregiver shows up."
+        "a": "NUOS is a family caregiver management service. Need a caregiver? We provide professional caregivers who fit your needs. Throughout your time with us, NUOS keeps developing your caregiver so they can give the best care for your child's personal needs."
       },
       {
         "q": "Where is NUOS currently available?",
-        "a": "NUOS is currently available in Indonesia only (Greater Jakarta, Bandung, Semarang, Surabaya). Expansion to other countries is coming soon."
+        "a": "Through the end of 2026, NUOS is available in Greater Jakarta (Jabodetabek). We'll be expanding to other cities and countries soon."
       },
       {
         "q": "How does payment work?",
-        "a": "You pay a one-time placement fee of Rp 1.500.000 when you hire. Monthly, you'll pay your caregiver's monthly salary (Rp 2.500.000–4.000.000) through NUOS and NUOS subscription fee (Rp 125.000–200.000). This is how we ensure you have 24/7 emergency hotline, replacement guarantee, smart caregiving & child development intelligence, and ongoing caregiver monitoring & training throughout the employment period."
+        "a": "You pay a one-time placement fee of Rp 1.500.000 when you hire. Every month, you pay NUOS your caregiver's salary (from Rp 2.500.000, 100% goes to the caregiver), a management fee of 5% of the salary, and BPJS Ketenagakerjaan. The management fee covers the 24/7 emergency hotline, caregiver replacement during employment, payroll and leave management, smart caregiving with NUOS Tumbuh, and ongoing caregiver monitoring and training."
       },
       {
         "q": "What does NUOS do during the caregiver's employment?",
@@ -107,11 +135,12 @@
       },
       {
         "q": "What does NUOS Tumbuh AI do?",
-        "a": "NUOS Tumbuh AI assists you in your caregiving journey. Every day, you and your caregiver get guided activities and stimulus recommendations based on your child's exact developmental stage. Every milestone gets logged, measured against WHO benchmarks, and summarized so you can see your child actually growing. It's smart caregiving built in, no more second guessing in parenting."
+        "a": "NUOS Tumbuh AI assists you in your caregiving journey. Every day, you and your caregiver get guided activities and stimulus recommendations based on your child's exact developmental stage. Every milestone gets logged, measured against WHO benchmarks, and summarized so you can see your child actually growing. It's smart caregiving built in, no more second guessing in parenting.",
+        "note": "Note: this product is still in development. Families who join in October and November 2026 will be part of the NUOS Tumbuh AI development journey."
       },
       {
         "q": "What if the caregiver isn't the right fit?",
-        "a": "Every caregiver employment through NUOS includes a free replacement guarantee for the whole employment period. If a caregiver is not working according to their work scope, misbehaves, or acts unprofessionally, tell us. We'll find you a new match at no additional fee."
+        "a": "Every caregiver employment through NUOS includes free caregiver replacement for the whole employment period. If a caregiver is not working according to their work scope, misbehaves, or acts unprofessionally, tell us. We'll find you a new match at no additional fee."
       },
       {
         "q": "Why NUOS and not another agency or platform?",
@@ -125,7 +154,8 @@
     "subheadline": "Pilot Batch 1 starts 7 October 2026 for the Jabodetabek area. Limited slots! Sign up now.",
     "button": "Find your match",
     "meta1": "Free to join",
-    "meta2": "No spam, ever"
+    "meta2": "No spam, ever",
+    "waCta": "Ask us on WhatsApp"
   },
   "footer": {
     "tagline": "Nurturing, Understanding, Outstanding and Safe Care for families everywhere.",
@@ -141,7 +171,8 @@
     "langEn": "English",
     "langId": "Bahasa Indonesia",
     "rights": "© 2026 NUOS Care. All rights reserved.",
-    "madeWith": "Made with ♡ for families everywhere."
+    "madeWith": "Made with ♡ for families everywhere.",
+    "legalName": "PT Inovasi Keluarga Indonesia"
   },
   "ui": {
     "active": "Active",
@@ -191,5 +222,9 @@
       "earlyEducation": "Early Education",
       "firstAid": "First Aid"
     }
+  },
+  "whatsapp": {
+    "message": "Hi, I'd like to ask more about NUOS caregivers",
+    "floatLabel": "Chat with us"
   }
 }

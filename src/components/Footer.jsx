@@ -1,5 +1,6 @@
 import { useLang } from '../i18n/LanguageContext.jsx';
 import Icon from './Icon.jsx';
+import { whatsappUrl, trackWhatsAppClick } from '../config.js';
 
 export default function Footer() {
   const { t, lang, setLang } = useLang();
@@ -15,6 +16,7 @@ export default function Footer() {
                 NUOS
               </span>
             </div>
+            <div className="footer-legal-name">{t('footer.legalName')}</div>
             <p>{t('footer.tagline')}</p>
             <div className="footer-socials">
               <a
@@ -32,6 +34,16 @@ export default function Footer() {
                 aria-label="LinkedIn"
               >
                 <Icon.LI />
+              </a>
+              <a
+                href={whatsappUrl(t('whatsapp.message'))}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="footer-social-wa"
+                onClick={() => trackWhatsAppClick('footer', lang)}
+              >
+                <Icon.WA />
               </a>
             </div>
           </div>

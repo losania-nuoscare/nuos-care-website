@@ -9,3 +9,18 @@ export function trackWaitlistClick(lang) {
     window.gtag('event', 'generate_lead', { method: 'batch_1', language: lang });
   }
 }
+
+// WhatsApp Business number (international format, no "+" or leading 0).
+export const WHATSAPP_NUMBER = '628118192026';
+
+// Build a wa.me link with a prefilled message.
+export function whatsappUrl(message) {
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+}
+
+// GA4 event for WhatsApp clicks, tagged with where the click came from.
+export function trackWhatsAppClick(location, lang) {
+  if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+    window.gtag('event', 'contact', { method: 'whatsapp', location, language: lang });
+  }
+}
