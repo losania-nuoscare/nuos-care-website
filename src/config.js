@@ -1,5 +1,5 @@
 // Central config for the Batch 1 signup (Google Form).
-export const WAITLIST_FORM_URL = 'https://forms.gle/kxdEh2ktndSLJ27Y6';
+export const WAITLIST_FORM_URL = 'https://forms.gle/P5sLoLrm5BdA4kzy9';
 
 // Fire a GA4 conversion when someone clicks a "Join Batch 1" button.
 // The form itself lives on Google, so this click is the trackable conversion
